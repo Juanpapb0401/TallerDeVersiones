@@ -55,7 +55,7 @@ public class Main {
     }
 
     private int multiplicacion(){
-        return 2*5;
+        return 2*5*23; //Suponemos que ya arregle el codigo
     }
     
 }
