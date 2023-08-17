@@ -33,7 +33,7 @@ public class Main {
 
             switch (optionMenu){
                 case 1:
-                   
+                   multiplicacion();
                     break;
                 case 2:
                     
@@ -52,6 +52,10 @@ public class Main {
             }
 
         }
+    }
+
+    private int multiplicacion(){
+        return 2*5;
     }
     
 }
