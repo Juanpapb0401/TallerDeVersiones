@@ -57,7 +57,7 @@ public class Main {
         return a-b;
     }
     private int multiplicacion(){
-        return 2*5;
+        return 2*5*23; //Suponemos que ya arregle el codigo
     }
 
     public double Division(int a, int b) {
