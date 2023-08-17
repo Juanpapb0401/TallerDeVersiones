@@ -33,17 +33,28 @@ public class Main {
 
             switch (optionMenu){
                 case 1:
+<<<<<<< HEAD
                    multiplicacion();
+=======
+                   
+>>>>>>> origin/feature#3
                     break;
                 case 2:
                     
                     break;
                 case 3:
+<<<<<<< HEAD
                     break;
                 case 4:
                     public static int resta(int a, int b) {
                      return a - b;
                 }
+=======
+                    Division(a,b);
+                    break;
+                case 4:
+                    
+>>>>>>> origin/feature#3
                     break;
                 case 5:
                     flag= true;
@@ -56,8 +67,16 @@ public class Main {
         }
     }
 
+<<<<<<< HEAD
     private int multiplicacion(){
         return 2*5;
+=======
+    public double Division(int a, int b) {
+        if (b == 0) {
+            b = 1;
+        }
+        return a/b;
+>>>>>>> origin/feature#3
     }
     
 }
