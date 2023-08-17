@@ -33,50 +33,43 @@ public class Main {
 
             switch (optionMenu){
                 case 1:
-<<<<<<< HEAD
                    multiplicacion();
-=======
-                   
->>>>>>> origin/feature#3
                     break;
                 case 2:
-                    
+                    int a = reader.nextInt(); 
+                    int b = reader.nextInt(); 
+                    System.out.println(suma(a, b));
                     break;
                 case 3:
-<<<<<<< HEAD
                     break;
                 case 4:
-                    public static int resta(int a, int b) {
-                     return a - b;
-                }
-=======
-                    Division(a,b);
-                    break;
-                case 4:
-                    
->>>>>>> origin/feature#3
+                    System.out.println(resta(a, b));
                     break;
                 case 5:
                     flag= true;
                     break;
-
-
-
             }
 
         }
     }
 
-<<<<<<< HEAD
+    private int resta(int a, int b){
+        return a-b;
+    }
     private int multiplicacion(){
         return 2*5;
-=======
+    }
+
     public double Division(int a, int b) {
         if (b == 0) {
             b = 1;
         }
         return a/b;
->>>>>>> origin/feature#3
+    }
+
+    public static int suma(int a, int b){
+        return (a + b); 
+
     }
     
 }
