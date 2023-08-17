@@ -41,6 +41,7 @@ public class Main {
                     System.out.println(suma(a, b));
                     break;
                 case 3:
+                    System.out.println(resta(a, b));
                     break;
                 case 4:
                     System.out.println(resta(a, b));
