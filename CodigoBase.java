@@ -41,7 +41,9 @@ public class Main {
                 case 3:
                     break;
                 case 4:
-                    
+                    public static int resta(int a, int b) {
+                     return a - b;
+                }
                     break;
                 case 5:
                     flag= true;
